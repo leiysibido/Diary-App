@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1004199671617",
+    "project_id": "daily-dairy-online",
+    "storage_bucket": "daily-dairy-online.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1004199671617:android:04796cbfe5ae434ed6d3c0",
+        "android_client_info": {
+          "package_name": "com.example.dailydairyonline"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1004199671617-c6bj0pb4uuq7d4sqvtuvskcuove8t5f0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFKq54a1MssuzgwJ-dLRc3S4VPwFDk-j8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1004199671617-c6bj0pb4uuq7d4sqvtuvskcuove8t5f0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

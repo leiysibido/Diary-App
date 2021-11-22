@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/uploadBtn"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/bg2"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="Daily Dairy Feed"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview_id"
+        android:layout_width="413dp"
+        android:layout_height="525dp"
+        android:layout_marginTop="17dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <com.getbase.floatingactionbutton.FloatingActionsMenu
+        android:id="@+id/flotingMenu"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="280dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.121"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/flotingProfile"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:fab_colorNormal="@color/white"
+            app:fab_colorPressed="#2196F3"
+            app:fab_icon="@drawable/profile"
+            app:fab_size="mini"
+            app:fab_title="Profile"
+            tools:layout_editor_absoluteX="322dp"
+            tools:layout_editor_absoluteY="523dp" />
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/flotingUpload"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:fab_colorNormal="@color/white"
+            app:fab_colorPressed="#2196F3"
+            app:fab_icon="@drawable/upload"
+            app:fab_size="mini"
+            app:fab_title="Profile"
+            tools:layout_editor_absoluteX="322dp"
+            tools:layout_editor_absoluteY="523dp" />
+    </com.getbase.floatingactionbutton.FloatingActionsMenu>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
